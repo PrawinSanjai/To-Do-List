@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group-append .btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.input-group-append .btn-primary:hover {
+    background-color: #4cae4c;
+}
+
+#task-list li {
+    transition: all 0.3s ease;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+#task-list li:hover {
+    background-color: #333333;
+}
+
+#task-list li .btn-danger, #task-list li .btn-secondary {
+    margin-left: 10px;
+}
+
+#task-list li .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+#task-list li .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+#task-list li .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#task-list li .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

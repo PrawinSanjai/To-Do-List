@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center text-light">To-Do List</h1>
+                <div class="input-group mb-3">
+                    <input type="text" id="new-task" class="form-control bg-dark text-light" placeholder="Add a new task" aria-label="Add a new task" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="add-task-btn">Add</button>
+                    </div>
+                </div>
+                <ul id="task-list" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
